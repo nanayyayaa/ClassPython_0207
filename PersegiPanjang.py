@@ -13,3 +13,6 @@ class PersegiPanjang:
 
     def __str__(self):
         return "persegi panjang, panjang " + str(self.panjang) + " cm, dan lebar " + str(self.lebar) + " cm"
+
+# Test
+tugas_kotak = PersegiPanjang(3, 2)
