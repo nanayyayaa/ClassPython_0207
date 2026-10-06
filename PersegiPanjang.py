@@ -17,3 +17,5 @@ class PersegiPanjang:
 # Test
 tugas_kotak = PersegiPanjang(3, 2)
 print(tugas_kotak)
+print("Keliling :", tugas_kotak.hitung_keliling(), "cm")
+print("Luas     :", tugas_kotak.hitung_luas(), "cm persegi")
