@@ -16,3 +16,4 @@ class PersegiPanjang:
 
 # Test
 tugas_kotak = PersegiPanjang(3, 2)
+print(tugas_kotak)
