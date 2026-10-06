@@ -1,0 +1,2 @@
+class PersegiPanjang:
+    pass
