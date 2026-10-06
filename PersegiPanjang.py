@@ -19,3 +19,10 @@ tugas_kotak = PersegiPanjang(3, 2)
 print(tugas_kotak)
 print("Keliling :", tugas_kotak.hitung_keliling(), "cm")
 print("Luas     :", tugas_kotak.hitung_luas(), "cm persegi")
+
+try:
+    print("\n-- Mencoba masukin angka 0 --")
+    kotak_error = PersegiPanjang(0, 5)
+except ValueError as pesan_error:
+    print("Error berhasil ditangkap:", pesan_error)
+    
