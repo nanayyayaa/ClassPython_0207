@@ -4,3 +4,7 @@ class PersegiPanjang:
             raise ValueError("Nilai panjang dan lebar tidak boleh 0!")
         self.panjang = panjang
         self.lebar = lebar
+
+    def hitung_keliling(self):
+        return 2 * (self.panjang + self.lebar)
+    
